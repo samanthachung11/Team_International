@@ -4,12 +4,15 @@ This repository provides explanations of the data analysis process for the DataR
 Contributors: Angelina Kim, Avishek Ghosh, Jun, Naomi Golin, Samantha Chung
 
 Data
+
 The data used to develop our Medium article came from: https://www.kaggle.com/mirichoi0218/insurance
+
 
 This dataset is a simulated dataset of the insurance costs charged on individuals by insurance companies based on a variety of factors such as age, region, number of children, and BMI. 
 
 
 Data Processing
+
 
 Because this was a collaborative project, analysis was done via both R and Python.
 
