@@ -1,0 +1,60 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import pandas as pd
+import seaborn as sns
+import turtle
+from sklearn.neighbors import KernelDensity
+import gc
+
+# Plotting pretty figures and avoid blurry images
+%config InlineBackend.figure_format = 'retina'
+# Larger scale for plots in notebooks
+sns.set_context('notebook')
+
+# Ignore warnings
+import warnings
+warnings.filterwarnings('ignore')
+
+# Enable multiple cell outputs
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = 'all'
+
+dataset = pd.read_csv('/content/drive/My Drive/CSV/insurance.csv')
+cardio = pd.read_csv('/content/drive/My Drive/CSV/cardio_train.csv')
+
+sns.set_style("white")
+sns.relplot(data=dataset,
+            x="age",
+            y="charges",
+            kind='scatter',
+            hue="smoker",
+            palette='prism_r')
+plt.ylim(0, 52000)
+plt.xlabel('Age')
+plt.ylabel('Annual Medical Bill ($)')
+
+systolic = cardio['ap_hi']
+yes_sys = []
+no_sys = []
+for i in range(70000):
+  if cardio_smoke[i] == 1:
+    yes_sys.append(systolic[i])
+  else:
+    no_sys.append(systolic[i])
+    
+plt.figure(figsize=(12,8))
+plt.axvspan(70, 120, color='greenyellow', alpha=0.25, lw=0)
+plt.axvspan(120, 140, color='gold', alpha=0.25, lw=0)
+plt.axvspan(140, 180, color='lightcoral', alpha=0.15, lw=0)
+plt.axvspan(180, 230, color='firebrick', alpha=0.15, lw=0)
+sns.distplot(no_sys, hist=False, kde=True, color = 'deepskyblue', kde_kws={'shade':True, 'linewidth': 4}, label = "Non-smokers")
+sns.distplot(yes_sys, hist=False, kde=True, color = 'mediumblue', kde_kws={'shade':True, 'linewidth': 4}, label="Smokers")
+plt.xlim(75,210)
+plt.text(93, 0.077, "Normal")
+plt.text(125, 0.077, "Elevated")
+plt.text(157, 0.077, "High")
+plt.text(188, 0.077, "Hypertension")
+plt.legend(loc="lower right")
+plt.xlabel('Systolic Blood Pressure')
+plt.title('Probability Density Plot for Systolic Blood Pressure')
