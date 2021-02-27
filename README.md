@@ -1,17 +1,24 @@
 [Medical Insurance Costs]
 This repository provides explanations of the data analysis process for the DataRes article "(INSERT URL)", published [INSERT DATE]. Please check out our article, which contains visualizations and insights about [INSERT TOPIC].
 
-Contributors: Angelina Kim, Avishek Ghosh, Jun, Naomi Golin, Samantha Chung
+Contributors: Angelina Kim, Avishek Ghosh, Jun Bae, Naomi Golin, Samantha Chung
 
 Data
 
-The data used to develop our Medium article came from: https://www.kaggle.com/mirichoi0218/insurance
+The data sets we used to develop our Medium Article are:
 
-This is an additional source that we used: https://healthcostinstitute.org
-** the link above has access restrictions and may not be accessible without a valid univeristy VPN.
+Urban Institute Dataset: 
+Carman, Joella. “Urban Institute (Github Repository).” Github,        <https://github.com/UrbanInstitute/debt-interactive-map/tree/master/data/201911-update>
+
+Kaggle Datasets:
+Choi, Miri. “Medical Cost Personal Datasets.” Kaggle, 21 Feb. 2018, www.kaggle.com/mirichoi0218/insurance. 
+
+Ulianova, Svetlana. “Cardiovascular Disease Dataset.” Kaggle, 20 Jan. 2019, www.kaggle.com/sulianova/cardiovascular-disease-dataset. 
+ 
+Public Health Dataset : https://healthcostinstitute.org [not acessible unless within the United States]
 
 
-This dataset is a simulated dataset of the insurance costs charged on individuals by insurance companies based on a variety of factors such as: age, region (within the United States), number of children, and BMI (otherwise known as body mass index). 
+The dataset created by Choi, Miri is a simulated dataset of the insurance costs charged on individuals by insurance companies based on a variety of factors such as: age, region (within the United States), number of children, and BMI (otherwise known as body mass index). 
 
 
 Data Processing
