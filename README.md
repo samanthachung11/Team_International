@@ -1,9 +1,18 @@
 [Medical Insurance Costs]
-This repository provides explanations of the data analysis process for the DataRes article "(INSERT URL)", published [INSERT DATE]. Please check out our article, which contains visualizations and insights about [INSERT TOPIC].
 
 Contributors: Angelina Kim, Avishek Ghosh, Jun Bae, Naomi Golin, Samantha Chung
 
-Data
+This repository contains information such as our code that we used to create the DataRes article titled : "Understanding Healthcare expenditure in the United States".
+
+To read the actual article, feel free to check out the link below : [insert link]
+
+To take a look at interactive visualizations:
+
+By Jun: An Interactive Dashboard of the “Medical Cost Personal Datasets”
+
+For interactive visualisations, pursue the link: https://public.tableau.com/profile/jun.bae#!/vizhome/AStudyIntoU_S_AnnualMedicalInsuranceBills/Story1?publish=yes
+
+Datasets we used
 
 The data sets we used to develop our Medium Article are:
 
