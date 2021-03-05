@@ -54,3 +54,7 @@ We deduced that smoking status places individuals at risk of higher medical cost
 **Does the ethnicity of insurance recipients influence the medical cost charged?**
 
 We found out that non white individuals are generally charged a greater amount for medical cost as compared to individuals who are white. However, non white indiivdulas also have a lower income on average than their white counterparts.
+
+Also, feel free to check out our slides from Demo Day:
+
+https://docs.google.com/presentation/d/1naWnZr3hKuhP2Gc1eFKALOJrA6Yt9qaFuh-fmExerbs/edit?usp=sharing
